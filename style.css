@@ -1,0 +1,62 @@
+.container {
+  margin: 2px 150px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(246, 223, 223, 0.195);
+  margin-bottom: 10px;
+  border-radius: 50px;
+  padding-top: 10px;
+  border: 2px solid rgba(248, 1, 1, 0.136);
+  box-shadow: 200px;
+}
+
+.image-border {
+  background-color: rgba(255, 0, 0, 0.159);
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+body {
+  background-color: rgb(237, 219, 219);
+  background-image: url('images/dpf8h2nwmft71.jpg');
+}
+
+.follow_link {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  color: rgb(8, 7, 5);
+}
+
+a:hover{
+  color: rgb(194, 191, 191);
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 25px;
+}
+
+ul {
+  margin: 0;
+  padding: 25px;
+}
